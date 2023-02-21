@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:paddingVertical="16dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="Linier"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="Relative"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:text="Constraintn"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingVertical="16dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="tabel"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="Frame"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:text="Material"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingVertical="16dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="Scrool view"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:text="Horizontal"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:text="Tugas"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</LinearLayout>
